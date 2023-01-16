@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 10px;
+    font-family: verdana;
+}
+
+/*----------container-----*/
+.container{
+    background-repeat: round;
+    background-image: url("image4.jpg");
+}
+.container{
+    width: 75%;
+    height: 500px;
+    margin:0 auto;
+    padding-top: 110px;
+}
+
+/*----------general-----*/
+.general{
+    width: 70%;
+    height: 430px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+/*----------img-----*/
+.image, .formul{
+    width: 47%;
+    height: auto;
+}
+
+.image img{
+    width: 95%;
+    height: 410px;
+    padding:7px;
+}
+
+/*----------formul-----*/
+.formul{
+    padding-top: 30px;
+}
+
+.div1{
+    display: flex;
+}
+
+.div1 input{
+    width: 38%;
+    margin-right: 20px;
+}
+
+.inp, .inp1{
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 26px;
+    width: 82%;
+}
+
+.inp1{
+    border-bottom: 2px solid rgba(77, 76, 76, 0.6);
+}
+
+.inp, .inp1:focus{
+    outline: none;
+}
+
+i{
+    font-size: 12px;
+}
+
+h1{
+    padding-left: 30px;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bouton input{
+    color: white;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+/*-------------------media queries---1--------------*/
+
+@media screen and (max-width:1020px) {
+    h1{
+        padding-left: 10px;
+        opacity: 0.8;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+
+/*-------------------media queries---2--------------*/
+
+@media screen and (max-width:800px) {
+    h1{
+        padding-left: 0px;
+        opacity: 0.8;
+        font-weight: bold;
+        font-size: 11px;
+    }
+}
